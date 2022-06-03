@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Permanent+Marker&family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenedor2{
+
+   background-color: yellowgreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url('/login/252-2527588_the-internet-is-a-hub-of-all-the.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter:opacity(20%);
+    
+}
+.contenedor{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
+    width: 500px;
+ 
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    align-self:flex-start;
+    gap: 20px;
+}
+.btn-google{
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.btn-google picture{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-google img{
+    width: 100%;
+}
+.btn-google span{
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+}
+.btn-google:hover{
+    opacity: 0.75;
+}
+.btn-tweeter{
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-tweeter:hover{
+    opacity: 0.75;
+    background-color:rgba(205, 201, 201, 0.435) ;
+    cursor: pointer;
+}
+.separador{
+    display: flex;
+    align-content: center;
+   gap: 20px;
+}
+.separador hr{
+    flex-grow: 1;
+    border: none;
+    width: 100%;
+    border-top: 1px solid rgb(204, 204, 204);
+}
+.separador span{
+    color: rgb(139, 139, 139);
+}
+
+.nombre-usuario{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+.nombre-usuario input{
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14pt;
+    background-color:  #f9f4f4;
+   
+}
+
+.nombre-usuario input:hover{
+    border:solid 1px white;
+    background-color:  #e6d3d3;
+}
+.email input{
+    width: 90%;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14pt;
+    background-color:  #f9f4f4;
+  
+}
+.email input:hover{
+    border:solid 1px white;
+    background-color: #e6d3d3;
+}
+.password input{
+    width: 90%;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 14pt;
+    background-color:  #f9f4f4;
+
+}
+.password input:hover{
+    border:solid 1px white;
+    background-color: #e6d3d3;
+}
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+.btn-crear button{
+    margin: auto;
+    margin-top: 30px;
+   
+    background-color: rgb(234, 76, 137);
+    color: white;
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-crear button:hover{
+    opacity: 0.75;
+}

@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.derecho{
+    background-color: yellowgreen;
+    height: 100vh;
+}
+.izquierdo{
+    background-color: yellow;
+    height: 100vh;
+}
