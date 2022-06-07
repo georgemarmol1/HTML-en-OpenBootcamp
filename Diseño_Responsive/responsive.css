@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.elemento{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.elemento1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+.elemento2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 89);
+}
+.elemento3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 221, 0);
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    height: 100px;
+    background-color: rgb(0, 225, 255);
+}
+
+@media screen and (max-width: 664px) {
+    .elemento{
+       position: absolute;
+       flex-direction: row;
+       bottom: 0;
+      
+    }
+    .principal{
+        flex-grow:1;
+        width: 100vw;
+    }
+  }
+
